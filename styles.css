@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(241, 245, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(222, 150, 142);
+  max-width: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 90px;
+}
+
+.counter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(237, 239, 221);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button {
+  height: 50px;
+  width: 120px;
+  padding: 0 40px;
+  font-size: 40px;
+  border: none;
+  background-color: rgb(179, 111, 111);
+  color: white;
+  border-radius: 18px;
+  margin: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(153, 95, 95);
+}
+
+#reset {
+  font-size: 20px;
+}
+
+#counter-value {
+  color: white;
+  height: 50px;
+  min-width: 120px;
+  border-radius: 10px;
+  background-color: rgb(179, 111, 111);
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
